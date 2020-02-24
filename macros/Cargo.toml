@@ -1,0 +1,13 @@
+[package]
+name = "macros"
+version = "0.1.0"
+authors = ["Michael Dougherty <maackle.d@gmail.com>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0.8", features = ["full", "fold"] }
+proc-macro2 = "1.0.8"
+quote = "1.0.2"
